@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "stmux -w always -e ERROR -m beep,system -- [ \"npm run getMsg\" : -s 1/12 -f \"npm run chat\" ]",
-    "chat": "node index.js",
-    "getMsg": "node getMsg.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
