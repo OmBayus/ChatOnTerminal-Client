@@ -13,7 +13,7 @@ const showLobi = (name)=>{
     jetty.moveTo([0,0]);
     console.log(
           chalk.yellow(
-                figlet.textSync("TMWG-Lobi", { horizontalLayout: 'full' })
+                figlet.textSync("BY-Chat", { horizontalLayout: 'full' })
           )
     );
     process.stdout.clearLine();
